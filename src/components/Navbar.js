@@ -35,15 +35,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link
-              className='nav-link'
-              to='/about'
-              onClick={() => setClicked(false)}
-            >
-              About
-            </Link>
-          </li>
+
           <li className='nav-item'>
             <Link
               className='nav-link'
@@ -60,6 +52,15 @@ const Navbar = () => {
               onClick={() => setClicked(false)}
             >
               Products
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              className='nav-link'
+              to='/about'
+              onClick={() => setClicked(false)}
+            >
+              About
             </Link>
           </li>
           <li className='nav-item menu-btn-li'>

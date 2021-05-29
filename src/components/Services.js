@@ -1,22 +1,10 @@
 import React from 'react';
+import Cards from './Cards';
 
 const Services = () => {
   return (
-    <div
-      style={{
-        height: '90vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
-      <h1
-        style={{
-          margin: '100px',
-        }}
-      >
-        Services
-      </h1>
+    <div>
+      <Cards />
     </div>
   );
 };
